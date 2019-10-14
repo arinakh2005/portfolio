@@ -21,11 +21,11 @@ body {
     background-color: #F0F0F0;
 }
 
-.app__section icons {
+.icons {
     height: 100vh;
 }
 
-.app__section general {
+.general {
     height: 100%;
 }
 
@@ -46,38 +46,35 @@ body {
 }
 
 .nav-list {
-    flex-basis: 250px;
-    flex-direction: row-reverse;
     color: #000;
     text-transform: uppercase;
     font-size: 20px;
-    margin: 5%;
+    margin: 70px;
 }
 
 .general__content {
     display: flex;
     flex-flow: row wrap;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
     align-items: center;
 }
 
-.general__content>* {
-    padding: 10 px;
+.aside-1 {
+    margin-left: 90px;
+    font-style: italic;
+    font-size: 35px;
+    padding: 10px;
     flex: 1 100%;
 }
 
-.aside-1 {
-    margin-left: 10%;
-    font-style: italic;
-    font-size: xx-large;
-}
-
 .aside-2 {
-    margin-left: 10%;
+    margin-left: 90px;
     text-align: left;
     font-family: Tahoma, sans-serif;
-    font-size: x-large;
+    font-size: 24px;
+    padding: 10px;
+    flex: 1 100%;
 }
 
 @media all and (min-width: 600px) {
